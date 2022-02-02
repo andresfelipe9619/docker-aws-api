@@ -1,4 +1,4 @@
-FROM node:12.13.0-alpine
+FROM node:14.18.2-alpine
 
 RUN npm install npm@latest -g
 # Install aws cli
